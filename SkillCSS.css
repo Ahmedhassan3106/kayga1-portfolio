@@ -56,17 +56,17 @@ nav a.active{
   color: #000000;
   border-bottom: 3px solid #000000;
 }
-@media(max-width: 995px) and (min-width: 361px){
+@media(max-width: 995px){
   nav{
       position: absolute;
-      display: none;
+      display: block;
       top: 0;
       right: 0;
       width: 40%;
       border-left: 3px solid #b74b4b;
       border-bottom: 3px solid #b74b4b;
       border-bottom-left-radius: 2rem;
-      padding: 1rem solid;
+      padding: 1rem;
       background-color:black;
       border-top: 0.1rem solid rgba(0,0,0,0.1);
   }
